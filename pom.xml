@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>jc.test</groupId>
+    <artifactId>thrift-usage</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>demo-facade-helloworld</module>
+        <module>demo-service-helloworld</module>
+        <module>demo-provider-helloworld</module>
+        <module>demo-client-helloworld</module>
+    </modules>
+
+   <properties>
+       <thrift.version>0.10.0</thrift.version>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+       <maven.compiler.source>1.7</maven.compiler.source>
+       <maven.compiler.target>1.7</maven.compiler.target>
+       <org.slf4j.version>1.7.10</org.slf4j.version>
+       <log4j.version>2.8.1</log4j.version>
+   </properties>
+
+
+</project>
