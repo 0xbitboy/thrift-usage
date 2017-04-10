@@ -24,5 +24,35 @@
        <log4j.version>2.8.1</log4j.version>
    </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.apache.thrift</groupId>
+                <artifactId>libthrift</artifactId>
+                <version>${thrift.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jc.test</groupId>
+                <artifactId>demo-service-helloworld</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>jc.test</groupId>
+                <artifactId>demo-facade-helloworld</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>${org.slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>

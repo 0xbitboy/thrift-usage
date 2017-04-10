@@ -13,4 +13,5 @@ exception InvalidOperation{
 
 service Helloworld{
     TUser getUser(1:string username);
+
 }
